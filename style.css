@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+/*header*/
+body {
+  font-family: Cairo;
+}
+.nv {
+  background: #000000 !important;
+  border-bottom: 2px solid black !important;
+}
+.nv a {
+  color: #43ffba;
+}
+.nav-link {
+  color: #19ff60 !important ;
+  margin-right: 10px;
+}
+.navbar-nav {
+  margin-left: 65px;
+}
+.nav-link:hover {
+  color: #4d805d !important ;
+}
+.navbar-toggler {
+  color: #16ff33a6;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgb(39 163 77 / 25%);
+}
+.navbar-brand {
+  color: #43ffba !important;
+}
+.zh {
+  font-size: 2vw;
+}
+.zh:hover {
+  color: #2acd16 !important;
+}
+
+/* end header*/
+
+/* section 1 */
+
+.d-1 {
+  width: 100%;
+  height: 513px;
+  background-image: url(imges/kova-WYGhTLym344-unsplash.jpg);
+  background-size: cover;
+}
+
+.d-1 :nth-child(1),
+.d-1 :nth-child(2),
+.d-1 :nth-child(3) {
+  padding-left: 10vw !important;
+}
+
+.d-1 :nth-child(1) {
+  margin-bottom: 30px;
+  position: relative;
+  transform: translateY(16px);
+  color: rgb(46 255 21);
+}
+.d-1 :nth-child(3) {
+  color: #000000;
+}
+.nt {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.nt div {
+  margin: 16px 53px;
+  height: 300px;
+  width: 242px !important;
+}
+
+.bg {
+  background-color: #cfc3c3;
+  border-radius: 8px;
+}
+/* end section 1 */
+
+/* section 2 */
+
+.ic {
+  border: 4px solid #0cc900;
+  border-radius: 45%;
+}
+
+/* wnd section 2 */
+
+/* section 3 */
+
+.row {
+  --bs-gutter-x: 0.1rem;
+}
+.cn-tx-img {
+  width: 100%;
+  height: 390px;
+}
+
+.cn-img {
+  background-image: url(/imges/103b18b46149a6b0fb46eef83611b16c.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.cn-tx {
+  height: 100%;
+  background-color: #343d42;
+}
+.cn-tx h1 {
+  color: #fbffff;
+}
+.tx-cn {
+  margin-left: 30px;
+}
+
+.ct {
+  width: 100%;
+}
+.bt {
+  padding: 4px;
+  width: 29%;
+  background: #9dc900;
+}
+
+/* end section 3 */
+
+/*  section 4 */
+
+.lp-1-1 {
+  height: 592px;
+  display: flex;
+  overflow: hidden;
+}
+.nk {
+  margin-top: 30px;
+}
+.lp-1-1 img {
+  width: 19vw;
+  margin-left: 16vw;
+  transform: translateY(33px);
+}
+
+.d-f {
+  margin-left: 5vw;
+}
+.cu {
+  background-color: #d5d5d5;
+  clip-path: circle(45%);
+}
+.p-3 {
+  padding: 1.2rem !important;
+  font-size: 29px;
+}
+.bf {
+  position: relative;
+}
+.bf::after {
+  content: " ";
+  display: inline-block;
+  width: 78px;
+  height: 3px;
+  background: #4bc734;
+  bottom: -15px;
+  right: 372px;
+  position: relative;
+}
+
+.d-6 {
+  width: 100%;
+  height: 513px;
+  background-image: url(imges/3\ Top\ Renewable\ Energy\ Stocks\ to\ Buy\ Right\ Now\ _\ The\ Motley\ Fool\ \(2\).jpg);
+  background-size: cover;
+  margin-top: 20px;
+}
+.nn {
+  width: 100%;
+  margin-top: 20px;
+}
+.bn {
+  background-color: #cfc3c34d;
+  border-radius: 8px;
+  margin: 17px;
+  height: 200px;
+  width: 20%;
+  margin-top: 60px;
+}
+.bn::after {
+  content: " ";
+  display: inline-block;
+  width: 78px;
+  height: 3px;
+  background: #4bc734;
+  bottom: 13px;
+  right: 0px;
+  position: relative;
+}
+
+.cordcont {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 421px;
+  flex-wrap: wrap;
+  background: linear-gradient(360deg, #343d42, transparent);
+}
+.cordcont .card {
+  box-shadow: 0 0 16.5px 0.5px #53545370;
+}
+
+.sll {
+  width: 100%;
+  border: 2px solid;
+  height: 564px;
+  background: #343d42;
+}
+.sool {
+  width: 68%;
+  margin: 37px 0 10px 0;
+  margin-left: 16%;
+  margin-right: auto;
+}
+.ds {
+  height: 482px;
+}
+/* se8 */
+.ft {
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+.ts {
+  width: 80%;
+  margin: 20px 0;
+  background: black;
+}
+.ch {
+  display: none;
+}
+
+.prv {
+  color: #2acd16;
+}
+
+@media (max-width: 768px) {
+  .lp-1-1 {
+    height: 1203px;
+    transform: translateY(390px);
+    flex-direction: column-reverse;
+  }
+
+  .lp-1-1 img {
+    width: 34%;
+    margin-left: 33%;
+    margin-right: auto;
+    transform: translateY(-1px);
+  }
+  .bf::after {
+    right: 184px;
+  }
+  .d-6 {
+    width: 100%;
+    height: 1280px;
+    transform: translateY(386px);
+  }
+  .bn {
+    width: 80%;
+  }
+  .cn-tx-img {
+    height: 552px;
+  }
+  .cordcont {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1228px;
+    flex-wrap: wrap;
+    transform: translateY(437px);
+    background: #fbffff;
+  }
+  .cordcont .card {
+    margin-bottom: 30px;
+  }
+  .sool {
+    width: 86%;
+    margin: 37px 0 10px 0;
+    margin-left: 7%;
+  }
+  .sll {
+    transform: translateY(427px);
+    height: 262px;
+  }
+  .ds {
+    height: 193px;
+  }
+  .nb {
+    transform: translateY(418px);
+  }
+  .ft {
+    display: none;
+  }
+  .zh {
+    font-size: 7vw;
+  }
+}
+.nh {
+  width: 100%;
+  height: 210px;
+}
+.ov {
+  overflow: hidden;
+}
+.bs {
+  background-color: #f7f7f7;
+}
